@@ -1,26 +1,35 @@
 # Beancount PayPal Importer
 
-`beancount-paypal` provides a beangulp-compatible Importer for converting CSV exports of PayPal into the beancount format.
+`beancount-paypal-ng` provides a beangulp-compatible Importer for converting CSV
+exports of PayPal into the beancount format.
+
+**Note:** This project was forked from
+[nils-werner/beancount-paypal](https://github.com/nils-werner/beancount-paypal)
+but is now independent. The reason for the fork was that contributing changes
+to the original project was too slow for my personal taste. If at all possible,
+I intend to incorporate the original's future changes. At the time of writing
+this fork fixes several bugs and adds features that are missing in the
+original.
 
 ## Installation
 
 ### Using uv (recommended)
 
 ```sh
-uv add git+https://github.com/nils-werner/beancount-paypal.git
+uv add git+https://github.com/omarkohl/beancount-paypal-ng.git
 ```
 
 ### Using pip
 
 ```sh
-pip install git+https://github.com/nils-werner/beancount-paypal.git
+pip install git+https://github.com/omarkohl/beancount-paypal-ng.git
 ```
 
 ### For development
 
 ```sh
-git clone https://github.com/nils-werner/beancount-paypal.git
-cd beancount-paypal
+git clone https://github.com/omarkohl/beancount-paypal-ng.git
+cd beancount-paypal-ng
 uv sync
 ```
 

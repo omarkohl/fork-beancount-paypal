@@ -1,5 +1,6 @@
 MIT License
 
+Copyright (c) 2026 Omar Kohl
 Copyright (c) 2021 Nils Werner
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
